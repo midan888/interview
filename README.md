@@ -6,16 +6,18 @@
 
 ### Basic
 
+what will be printed in console
 ```
 if (true) {
     const name = 'john';
     let number = '123';
-    var email = '123@gmailc.om';
+    var email = '123@gmail.com';
 }
 
 console.log(email, number, name);
 ```
 
+what will be printed in console
 ```
 for (var i = 0; i < 5; i++) {
     setTimeout(() => {
@@ -102,7 +104,9 @@ console.log(car instanceof Car);
 
 ### promises
 
-1. What is going to be the sequence of the requests
+1. what is callback hel, describe, how to fix it
+
+2. What is going to be the sequence of the requests
 
 ```
 fetch('//google.com')
@@ -118,7 +122,7 @@ fetch('//google.com')
 
 ```
 
-2. Will the thens after throw error work, what is going to be after catch
+3. Will the thens after throw error work, what is going to be after catch
 
 ```
 fetch('//google.com')
@@ -137,7 +141,7 @@ fetch('//google.com')
     });
 ```
 
-3. convert promise to async await
+4. convert promise to async await
 ```
 fetch('https://google.com')
     .then((json) => {
